@@ -79,11 +79,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl\UserCtrlQLNV.cs">
+    <Compile Include="uCtrlPhieuTiem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl\UserCtrlQLNV.Designer.cs">
-      <DependentUpon>UserCtrlQLNV.cs</DependentUpon>
+    <Compile Include="uCtrlPhieuTiem.Designer.cs">
+      <DependentUpon>uCtrlPhieuTiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\uCtrlPhieuKham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\uCtrlPhieuKham.Designer.cs">
+      <DependentUpon>uCtrlPhieuKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\uCtrlNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\uCtrlNhanVien.Designer.cs">
+      <DependentUpon>uCtrlNhanVien.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form\fDangKi.resx">
       <DependentUpon>fDangKi.cs</DependentUpon>
@@ -107,8 +119,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserControl\UserCtrlQLNV.resx">
-      <DependentUpon>UserCtrlQLNV.cs</DependentUpon>
+    <EmbeddedResource Include="uCtrlPhieuTiem.resx">
+      <DependentUpon>uCtrlPhieuTiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\uCtrlNhanVien.resx">
+      <DependentUpon>uCtrlNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\uCtrlPhieuKham.resx">
+      <DependentUpon>uCtrlPhieuKham.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
