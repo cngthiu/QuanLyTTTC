@@ -174,7 +174,7 @@
             // 
             // userCtrlQLNV1
             // 
-            this.userCtrlQLNV1.Location = new System.Drawing.Point(225, 100);
+            this.userCtrlQLNV1.Location = new System.Drawing.Point(226, 100);
             this.userCtrlQLNV1.Name = "userCtrlQLNV1";
             this.userCtrlQLNV1.Size = new System.Drawing.Size(1084, 629);
             this.userCtrlQLNV1.TabIndex = 4;
