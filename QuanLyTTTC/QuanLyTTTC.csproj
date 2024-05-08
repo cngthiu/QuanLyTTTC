@@ -53,34 +53,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectBase.cs" />
-    <Compile Include="fDangKi.cs">
+    <Compile Include="Form\fDangKi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fDangKi.Designer.cs">
+    <Compile Include="Form\fDangKi.Designer.cs">
       <DependentUpon>fDangKi.cs</DependentUpon>
     </Compile>
-    <Compile Include="fDangNhap.cs">
+    <Compile Include="Form\fDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fDangNhap.Designer.cs">
+    <Compile Include="Form\fDangNhap.Designer.cs">
       <DependentUpon>fDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="fManagement.cs">
+    <Compile Include="Form\fStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fManagement.Designer.cs">
-      <DependentUpon>fManagement.cs</DependentUpon>
+    <Compile Include="Form\fStaff.Designer.cs">
+      <DependentUpon>fStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fManager.Designer.cs">
+      <DependentUpon>fManager.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fDangKi.resx">
+    <Compile Include="UserControl\UserCtrlQLNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UserCtrlQLNV.Designer.cs">
+      <DependentUpon>UserCtrlQLNV.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form\fDangKi.resx">
       <DependentUpon>fDangKi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fDangNhap.resx">
+    <EmbeddedResource Include="Form\fDangNhap.resx">
       <DependentUpon>fDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fManagement.resx">
-      <DependentUpon>fManagement.cs</DependentUpon>
+    <EmbeddedResource Include="Form\fStaff.resx">
+      <DependentUpon>fStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fManager.resx">
+      <DependentUpon>fManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,6 +107,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControl\UserCtrlQLNV.resx">
+      <DependentUpon>UserCtrlQLNV.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

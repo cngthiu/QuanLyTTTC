@@ -14,7 +14,7 @@ namespace QuanLyTTTC
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=DESKTOP;Initial Catalog=QLTTTC;Integrated Security=True";
+            con.ConnectionString = @"Data Source=MSI-GF63\SQLEXPRESS;Initial Catalog=QLTTTC;User ID=sa;Password=thieulk23;Trust Server Certificate=True";
             //con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\OneDrive\Destop\git-hub\CDIO4\ManagemenHotelApp\ManagemenHotelApp\ManagemenHotelApp\QLKS.mdf;Integrated Security=True";
             return con;
         }

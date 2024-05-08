@@ -52,6 +52,7 @@
             this.guna2TextBoxPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBoxPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBoxPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBoxPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxPassword.IconLeft")));
             this.guna2TextBoxPassword.Location = new System.Drawing.Point(55, 300);
             this.guna2TextBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBoxPassword.MaxLength = 255;
@@ -98,6 +99,7 @@
             this.guna2TextBoxUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBoxUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBoxUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBoxUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxUsername.IconLeft")));
             this.guna2TextBoxUsername.Location = new System.Drawing.Point(55, 235);
             this.guna2TextBoxUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBoxUsername.MaxLength = 255;
@@ -123,6 +125,8 @@
             this.guna2TextBoxMaNV.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBoxMaNV.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBoxMaNV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBoxMaNV.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxMaNV.IconLeft")));
+            this.guna2TextBoxMaNV.IconLeftSize = new System.Drawing.Size(25, 25);
             this.guna2TextBoxMaNV.Location = new System.Drawing.Point(55, 166);
             this.guna2TextBoxMaNV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBoxMaNV.MaxLength = 255;

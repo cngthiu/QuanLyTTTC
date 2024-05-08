@@ -1,6 +1,6 @@
 ﻿namespace QuanLyTTTC
 {
-    partial class fManagement
+    partial class fStaff
     {
         /// <summary>
         /// Required designer variable.

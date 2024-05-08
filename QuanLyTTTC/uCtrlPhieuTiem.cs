@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLyTTTC
 {
-    public partial class fManagement : Form
+    public partial class uCtrlPhieuTiem : UserControl
     {
-        public fManagement()
+        public uCtrlPhieuTiem()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbNameLogin_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fDangNhap));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -128,6 +129,7 @@
             this.guna2TextBoxPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBoxPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBoxPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBoxPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxPassword.IconLeft")));
             this.guna2TextBoxPassword.Location = new System.Drawing.Point(51, 204);
             this.guna2TextBoxPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBoxPassword.MaxLength = 255;
@@ -154,6 +156,7 @@
             this.guna2TextBoxUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBoxUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBoxUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBoxUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBoxUsername.IconLeft")));
             this.guna2TextBoxUsername.Location = new System.Drawing.Point(51, 134);
             this.guna2TextBoxUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBoxUsername.MaxLength = 255;
